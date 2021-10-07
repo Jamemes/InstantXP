@@ -1,0 +1,8 @@
+<mod name="InstantXP" image="guis/textures/pd2/blackmarket/xp_drop">
+	<AssetUpdates id="Jamemes/InstantXP" version="1" provider="github" branch="master" use_local_dir="true" use_local_path="true"/>
+    <Hooks>
+		<hook source_file="lib/managers/experiencemanager"				file="exp.lua"/>
+		<hook source_file="lib/managers/hud/hudstageendscreen"			file="exp.lua"/>
+		<hook source_file="lib/managers/hud/newhudstatsscreen"			file="exp.lua"/>	
+    </Hooks>
+</mod>
